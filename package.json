@@ -1,0 +1,26 @@
+{
+    "name": "parcel-plugin-pre-clean",
+    "description": "A parcel plugin for removing files and folders",
+    "version": "1.0.0",
+    "author": "xingqiao <cctshiyu@126.com>",
+    "keywords": [
+        "parcel",
+        "parcel-plugin",
+        "plugin",
+        "clean"
+    ],
+    "main": "index.js",
+    "scripts": {
+        "publish": "npm publish"
+    },
+    "dependencies": {
+        "globby": "^9.2.0",
+        "rimraf": "^2.6.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xingqiao/parcel-plugin-pre-clean.git"
+    },
+    "readmeFilename": "README.md",
+    "license": "MIT"
+}
