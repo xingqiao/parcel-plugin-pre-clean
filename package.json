@@ -1,7 +1,7 @@
 {
     "name": "parcel-plugin-pre-clean",
     "description": "A parcel plugin for removing files and folders",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "xingqiao <cctshiyu@126.com>",
     "keywords": [
         "parcel",

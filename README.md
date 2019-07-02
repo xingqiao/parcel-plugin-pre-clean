@@ -23,8 +23,14 @@ $ npm i -D parcel-plugin-pre-clean
         "*.html",
         "*.js",
         "!build.js"
+    ],
+    "parcelBuildClean": [
+        ".cache"
     ]
 }
 ```
 
-在 `parcelClean` 中配置要删除的文件或目录列表，支持通配符，可以用 `!` 符号来进行文件过滤
+在 `parcelClean` 和 `parcelBuildClean` 中配置要删除的文件或目录列表，支持通配符，可以用 `!` 符号来进行文件过滤
+
+- `parcelClean` 在每次编译前触发，可以用来配置删除上一次生成的文件
+- `parcelBuildClean` 只在生产环境编译完成后触发，可以用来删除缓存文件或者已经内联的js文件
